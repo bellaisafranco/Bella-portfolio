@@ -1,2 +1,8 @@
-function setPixelColor(pixel1){pixel1.style.backgroundColor="black"}
-function setPixelColor(pixel2){pixel2.style.backgroundColor="pink"}
+const words = ["fruity","spring","juice","bitter","ripe","seasonal","messy","sweet","sour","delicious"];
+const yumButton = document.getElementById("yumButton");
+function generateRandomWord(){
+    const randomIndex = Math.floor(Math.random()*words.length);
+    const randomWord = words[randomIndex];
+    document.querySelector("p").textContent='Random Word: ${randomWord}';
+}
+yumButton.addEventListener("click", generateRandomWord);
