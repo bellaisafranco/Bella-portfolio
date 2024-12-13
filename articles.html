@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Plum Magazine</title>
+    <link rel="icon" type="image/x-icon" href="favicon.png">
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,45 +14,47 @@
 
   </head>
   <body>
-<header id="headerblock">
-    <nav>
-    <img src="plummagazine.png">
-    <h1>Plum Magazine</h1>
-        <ul id="navbar">
+<header id="header1">
+    <img src="plummagazine.png" id="logoone" alt="Plum Magazzine Main Logo">
+    <nav id="navbar">
+        <ul id="navigation">
             <li class="navitem"><a href="index.html">Home</a></li>
             <li class="navitem"><a href="articles.html">Articles</a></li>
             <li class="navitem"><a href="about.html">About</a></li>
+            <li class="navitem"><a href="index.html">Plum Magazine</a></li>
         </ul>
     </nav>
 </header>
 <main>
-    <div id="arti">
+  
         <h2>Plum Issue No.1</h2>
-        <img src="Articleimg.png">
+        <div id="arti">
+        <img src="Articleimg.png" id="artipic">
+    </div>
         <p>The first ever look at Plum Magazine is finally here!</p>
     </div>
     <div id="game">
         <h3>Plum Approved</h3>
-        <p>Pick out your next Plum Approved outfit by digging into our closet!</p>
-        <div id="closet">
-            <img src="outfits/blazer.png" alt="Black Blazer">
-            <img src="outfits/blackskirt.png" alt="Black Skirt">
-            <img src="outfits/brownskirt2.png" alt="Brown Plaid Skirt">
-            <img src="outfits/greenshirt.png" alt="Green Shirt">
-            <img src="outfits/browntop2.png" alt="Brown Shirt">
-            <img src="outfits/redshirt.png" alt="Red Shirt">
-        </div>
+        <p>Pick out your next Plum approved outfit by digging into our closet!</p>
         <div id="outfit">
-            <img src="outfits/greenfit.png" alt="Green shirt with black skirt and blazer">
+            <img src="greenfit.png" id="gfit" alt="Green shirt with black skirt and blazer">
         </div>
-        <button id="topbutton">Tops</button>
-        <button id="skirtbutton">Bottoms</button>
+        <button id="fit1">option 1</button>
+        <button id="fit2">option 2</button>
+        <button id="fit3">option 3</button>
+        <button id="fit4">option 4</button>
         <p id="gametext">Looking Good!</p>
     </div>
    
 
     
 </main>
+<footer>
+    <img src="plumlogo2.png" alt="Plum Magazine logo" id="logotwo">
+  <p>Thank you for visiting!</p>
+
+
+</footer>
 <script src="scripts.js"></script>
   </body>
 </html>

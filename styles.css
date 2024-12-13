@@ -12,4 +12,53 @@
   font-weight: normal;
   font-style: normal;}
 
-h1{font-family: "Oswald";}
+h1{font-family: "Oswald";text-align: center;}
+h2{font-family: "Oswald";text-align: center}
+h3{font-family: "Oswald";text-align: center}
+p{font-family: "Nunito Sans";text-align: center;}
+a{font-family: "Oswald";}
+body{background-color: #CABAD8;}
+header{background-color: #4F364B;color: #CABAD8;padding: 10px;}
+#logoone{width: 150px; height: auto;margin: auto;display: block;}
+#navbar{background-color: #4F364B;color: #CABAD8;}
+ul {list-style-type: none;margin: 0;padding: 0;overflow: hidden;background-color: #4F364B;}
+li {float: right;}
+li a {display: block;color: #CABAD8;text-align: center;padding: 14px 16px;text-decoration: none;}
+li a:hover {background-color:#CABAD8;color: #4F364B;}
+main{background-color: #CABAD8;}
+#herowrapper{margin-top: 20px;  display: flex;justify-content: center; align-items: center;}
+#hero{width: 750px;height: auto;border:3px solid #4F364B;border-radius: 3%;}
+#cta1{display: flex;justify-content: center; align-items: center;margin-top: 20px;margin-bottom: 20px;}
+a{background-color: #4F364B;color: #CABAD8;padding: 14px 16px;border:3px solid #4F364B;border-radius: 10%;}
+a:hover{background-color:#CABAD8;color: #4F364B;border:3px solid #4F364B;border-radius: 10%;}
+footer{background-color: #4F364B;color: #CABAD8;padding: 2rem;}
+#arti{margin-top: 20px;  display: flex;justify-content: center; align-items: center;}
+#artipic{max-width: 700px;height: auto;}
+#outfit{margin-top: 20px;  display: flex;justify-content: center; align-items: center;}
+#gfit{max-width: 400px;height: auto;}
+button{margin:auto;  display: flex;justify-content: center; align-items: center; background-color: #4F364B;color: #CABAD8;padding: 14px 16px;border:3px solid #4F364B;border-radius: 10%;}
+button:hover{background-color:#CABAD8;color: #4F364B;border:3px solid #4F364B;border-radius: 10%;}
+#hals{margin:auto;  display: flex;justify-content: center; align-items: center;}
+#haley{max-width: 700px;height: auto;}
+
+@media screen and (max-width: 300px){
+    header{display: block; background-color: #CABAD8;}
+    body{background-color: #4F364B;}
+    h1{align-content: center; width: 100%;}
+    ul{display: inline-block;width: 100%;}
+    li{width: 100%;}
+    #hero{width: 100%;}
+    #artipic{width: 100%;}
+    #gfit{width: 100%;}
+    #haley{width:100%}
+}
+
+@media screen and (max-width: 1100px){
+    header{display: block;background-color: #CABAD8;}
+    h1{padding-left: 10%;padding-right: 10%;}
+    body{background-color: #4F364B;}
+    ul{display: inline-block; width: 100%}
+    li{width: 100%;}}
+
+@media screen and (min-width: 1100px){
+    body{ background-color: #CABAD8;}}
