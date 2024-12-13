@@ -1,3 +1,15 @@
-*{
-    box-sizing:border-box;
-   }
+*{box-sizing:border-box;}
+   
+.oswald{
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;}
+
+.nunito-sans {
+  font-family: "Nunito Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;}
+
+h1{font-family: "Oswald";}
